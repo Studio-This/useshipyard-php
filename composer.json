@@ -1,0 +1,31 @@
+{
+    "name": "useshipyard/useshipyard-php",
+    "description": "Safe, reversible environment migrations — move a project's database and referenced assets between any two environments, across cloud providers. (Coming soon.)",
+    "type": "library",
+    "keywords": [
+        "shipyard",
+        "migration",
+        "environments",
+        "staging",
+        "production",
+        "database",
+        "s3",
+        "object-storage",
+        "rollback",
+        "backup"
+    ],
+    "homepage": "https://useshipyard.io",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/Studio-This/useshipyard-php/issues",
+        "source": "https://github.com/Studio-This/useshipyard-php"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shipyard\\": "src/"
+        }
+    }
+}
